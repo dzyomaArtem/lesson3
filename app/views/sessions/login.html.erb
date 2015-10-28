@@ -3,9 +3,11 @@
 
 <%= form_tag('/sessions', method: :post) do %>
     <div class="field">
+      <p> Email </p>
       <%= text_field_tag :email %>
     </div>
     <div class="field">
+      <p> Password </p>
       <%= password_field_tag :password %>
     </div>
     <div class="actions">
